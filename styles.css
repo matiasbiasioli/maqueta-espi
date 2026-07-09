@@ -33,7 +33,6 @@ body {
   margin: auto;
 }
 
-
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -110,6 +109,23 @@ body {
 /* ==========================================================================
    Hero
    ========================================================================== */
+
+.accent-serif {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  color: inherit;
+}
+
+.accent-highlight {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  background: var(--yellow);
+  padding: 0 0.18em;
+  border-radius: 4px;
+}
+
 .hero {
   position: relative;
   background: var(--purple-deep);
