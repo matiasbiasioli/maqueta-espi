@@ -126,6 +126,8 @@ body {
   border-radius: 4px;
 }
 
+
+
 .hero {
   position: relative;
   background: var(--purple-deep);
@@ -328,7 +330,8 @@ form {
   max-width: 650px;
 }
 input,
-textarea {
+textarea,
+select {
   padding: 14px;
   border: 1px solid #ccc;
   border-radius: 8px;
