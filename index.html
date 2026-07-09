@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ESPI | Maqueta Web</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="logo">ESPI<span class="logo-dot">.</span></a>
+        <nav class="main-nav" id="mainNav">
+          <a href="#sobre">Qué es ESPI</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#cursos">Cursos</a>
+          <a href="#recursos">Recursos</a>
+          <a href="#equipo">Equipo</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto" class="nav-cta">Contacto</a>
+        </nav>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <svg class="hero-blob hero-blob-1" viewBox="0 0 200 200">
+          <path
+            fill="currentColor"
+            d="M45,-58.4C57.4,-49.6,65,-33.5,68.6,-16.5C72.2,0.5,71.8,18.4,64.3,32.9C56.9,47.4,42.5,58.5,26.4,64.8C10.4,71.1,-7.3,72.7,-24.2,68.1C-41.1,63.5,-57.2,52.7,-66.1,37.6C-75,22.5,-76.7,3.1,-72.4,-14.2C-68.1,-31.5,-57.8,-46.7,-44,-55.7C-30.2,-64.7,-15.1,-67.5,1.2,-69.1C17.5,-70.7,35,-71.1,45,-58.4Z"
+            transform="translate(100 100)"
+          />
+        </svg>
+        <svg class="hero-blob hero-blob-2" viewBox="0 0 200 200">
+          <path
+            fill="currentColor"
+            d="M39.5,-51.9C50.5,-42.6,58,-29.6,62.6,-14.9C67.2,-0.2,68.9,16.2,62.7,29.4C56.5,42.6,42.4,52.6,27.3,58.9C12.2,65.2,-3.9,67.8,-19.6,64.5C-35.3,61.2,-50.6,52,-59.6,38.4C-68.6,24.8,-71.3,6.8,-67.8,-9.5C-64.3,-25.8,-54.6,-40.4,-42,-49.7C-29.4,-59,-14.7,-63,0.4,-63.5C15.5,-64,31,-61.2,39.5,-51.9Z"
+            transform="translate(100 100)"
+          />
+        </svg>
+        <svg class="hero-target" viewBox="0 0 120 120">
+          <circle
+            cx="60"
+            cy="60"
+            r="42"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          />
+          <circle
+            cx="60"
+            cy="60"
+            r="26"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          />
+          <circle cx="60" cy="60" r="3" fill="currentColor" />
+        </svg>
+        <div class="hero-dotgrid"></div>
+      </div>
+      <div class="container hero-inner">
+        <p class="eyebrow">Espacio de Salud Psicoterapéutico Integral</p>
+        <h1 class="hero-title">
+          Rigor <span class="accent-serif">clínico.</span><br />
+          Color <span class="accent-highlight">humano.</span>
+        </h1>
+        <p class="hero-sub">
+          Acompañamiento terapéutico clínico. Psicoterapia, fitomedicina y
+          herramientas supervisadas. Formación para profesionales. Atención
+          presencial y online.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary">Pedir un turno</a>
+          <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
+        </div>
+      </div>
+      <div class="hero-ribbon" aria-hidden="true">
+        <svg viewBox="0 0 1440 220" preserveAspectRatio="none">
+          <path d="M0,110 C 240,220 340,0 620,90 C 900,180 1040,20 1440,110" />
+        </svg>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container grid">
+        <div class="placeholder">Imagen institucional</div>
+
+        <div>
+          <h2>¿Qué es ESPI?</h2>
+
+          <p>
+            ESPI es un espacio dedicado al acompañamiento de personas desde una
+            mirada integral, combinando distintas disciplinas orientadas a la
+            salud y al desarrollo personal.
+          </p>
+
+          <p>
+            Esta sección servirá para contar la filosofía del espacio, su misión
+            y la forma de trabajo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios">
+      <div class="container">
+        <h2>Servicios</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Psicoterapia</h3>
+
+            <p>Breve descripción del servicio.</p>
+          </div>
+
+          <div class="card">
+            <h3>Fitomedicina</h3>
+
+            <p>Breve descripción del servicio.</p>
+          </div>
+
+          <div class="card">
+            <h3>Herramientas supervisadas</h3>
+
+            <p>Breve descripción del servicio.</p>
+          </div>
+
+          <div class="card">
+            <h3>Formación profesional</h3>
+
+            <p>Breve descripción del servicio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cursos">
+      <div class="container">
+        <h2>Cursos</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Microdosis y hábitos</h3>
+
+            <p>Taller introductorio.</p>
+          </div>
+
+          <div class="card">
+            <h3>Meditación</h3>
+
+            <p>Taller para pacientes y profesionales.</p>
+          </div>
+
+          <div class="card">
+            <h3>Macrodosis terapéutica</h3>
+
+            <p>Próximamente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipo">
+      <div class="container">
+        <h2>Equipo</h2>
+
+        <div class="cards">
+          <div class="card">
+            <div class="avatar"></div>
+
+            <h3>Profesional 1</h3>
+
+            <p>Especialidad</p>
+          </div>
+
+          <div class="card">
+            <div class="avatar"></div>
+
+            <h3>Profesional 2</h3>
+
+            <p>Especialidad</p>
+          </div>
+
+          <div class="card">
+            <div class="avatar"></div>
+
+            <h3>Profesional 3</h3>
+
+            <p>Especialidad</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+  <section class="section contacto" id="contacto">
+    <div class="container two-col">
+      <div class="text-block">
+        <p class="eyebrow eyebrow-light">Contacto</p>
+        <h2 class="section-title-light">Escribinos</h2>
+        <p class="contacto-copy">
+          Contanos brevemente tu consulta y te respondemos para coordinar un primer encuentro.
+        </p>
+        <div class="contact-links">
+          <a href="https://www.instagram.com/espi.salud" target="_blank" rel="noopener" class="contact-link">Instagram — @espi.salud</a>
+          <a href="#" class="contact-link">YouTube — [link del canal]</a>
+          <a href="#" class="contact-link">[Email de contacto]</a>
+          <a href="#" class="contact-link">[WhatsApp / Teléfono]</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>
+          Nombre
+          <input type="text" name="nombre" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Mensaje
+          <textarea name="mensaje" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary full">Enviar mensaje</button>
+        <p class="form-note">Este formulario es parte de la maqueta y todavía no envía datos reales.</p>
+      </form>
+    </div>
+  </section>
+
+    <footer>
+      <div class="container">
+        © ESPI - Espacio de Salud Psicoterapéutico Integral
+      </div>
+    </footer>
+  </body>
+</html>
