@@ -228,27 +228,20 @@
           </div>
         </div>
         <form class="contact-form" id="contactForm">
-          <label>
-            Nombre
-            <input type="text" name="nombre" required />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" required />
-          </label>
-          <label>
-            Tipo de consulta
-            <select name="tipoConsulta" required>
-              <option value="" disabled selected>Seleccioná una opción</option>
-              <option value="formacion">Formación</option>
-              <option value="psicoterapia">Psicoterapia</option>
-              <option value="fitomedicina">Fitomedicina</option>
-            </select>
-          </label>
-          <label>
-            Mensaje
-            <textarea name="mensaje" rows="4" required></textarea>
-          </label>
+          <input type="text" name="nombre" placeholder="Nombre" required />
+
+          <input type="email" name="email" placeholder="Email" required />
+
+          <select name="tipoConsulta" required>
+            <option value="" disabled selected>
+              Seleccionar tipo de consulta...
+            </option>
+            <option value="formacion">Formación</option>
+            <option value="psicoterapia">Psicoterapia</option>
+            <option value="fitomedicina">Fitomedicina</option>
+          </select>
+
+          <textarea name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
           <button type="submit" class="btn btn-primary full">
             Enviar consulta
           </button>

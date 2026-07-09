@@ -352,6 +352,21 @@ button {
 /* ==========================================================================
    Contacto
    ========================================================================== */
+
+   .two-col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.text-block,
+.contact-form {
+  flex: 1;
+}
+.two-col > * {
+  width: 50%;
+}
 .contacto {
   background: var(--purple-deep);
   color: var(--off-white);
