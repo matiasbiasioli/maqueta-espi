@@ -110,11 +110,6 @@
             mirada integral, combinando distintas disciplinas orientadas a la
             salud y al desarrollo personal.
           </p>
-
-          <p>
-            Esta sección servirá para contar la filosofía del espacio, su misión
-            y la forma de trabajo.
-          </p>
         </div>
       </div>
     </section>
@@ -210,43 +205,99 @@
     </section>
 
     <!-- CONTACTO -->
-  <section class="section contacto" id="contacto">
-    <div class="container two-col">
-      <div class="text-block">
-        <p class="eyebrow eyebrow-light">Contacto</p>
-        <h2 class="section-title-light">Escribinos</h2>
-        <p class="contacto-copy">
-          Contanos brevemente tu consulta y te respondemos para coordinar un primer encuentro.
-        </p>
-        <div class="contact-links">
-          <a href="https://www.instagram.com/espi.salud" target="_blank" rel="noopener" class="contact-link">Instagram — @espi.salud</a>
-          <a href="#" class="contact-link">YouTube — [link del canal]</a>
-          <a href="#" class="contact-link">[Email de contacto]</a>
-          <a href="#" class="contact-link">[WhatsApp / Teléfono]</a>
+    <section class="section contacto" id="contacto">
+      <div class="container two-col">
+        <div class="text-block">
+          <p class="eyebrow eyebrow-light">Contacto</p>
+          <h2 class="section-title-light">Escribinos</h2>
+          <p class="contacto-copy">
+            Contanos brevemente tu consulta y te respondemos para coordinar un
+            primer encuentro.
+          </p>
+          <div class="contact-links">
+            <a
+              href="https://www.instagram.com/espi.salud"
+              target="_blank"
+              rel="noopener"
+              class="contact-link"
+              >Instagram — @espi.salud</a
+            >
+            <a href="#" class="contact-link">YouTube — [link del canal]</a>
+            <a href="#" class="contact-link">[Email de contacto]</a>
+            <a href="#" class="contact-link">[WhatsApp / Teléfono]</a>
+          </div>
         </div>
+        <form class="contact-form" id="contactForm">
+          <label>
+            Nombre
+            <input type="text" name="nombre" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Mensaje
+            <textarea name="mensaje" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary full">
+            Enviar mensaje
+          </button>
+          <p class="form-note">
+            Este formulario es parte de la maqueta y todavía no envía datos
+            reales.
+          </p>
+        </form>
       </div>
-      <form class="contact-form" id="contactForm">
-        <label>
-          Nombre
-          <input type="text" name="nombre" required>
-        </label>
-        <label>
-          Email
-          <input type="email" name="email" required>
-        </label>
-        <label>
-          Mensaje
-          <textarea name="mensaje" rows="4" required></textarea>
-        </label>
-        <button type="submit" class="btn btn-primary full">Enviar mensaje</button>
-        <p class="form-note">Este formulario es parte de la maqueta y todavía no envía datos reales.</p>
-      </form>
-    </div>
-  </section>
+    </section>
 
-    <footer>
-      <div class="container">
-        © ESPI - Espacio de Salud Psicoterapéutico Integral
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span class="logo footer-logo"
+          >espi<span class="logo-dot">.</span></span
+        >
+        <div class="footer-social">
+          <a
+            href="https://www.instagram.com/espi.salud"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram de ESPI"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1" />
+            </svg>
+          </a>
+          <a
+            href="#"
+            aria-label="YouTube de ESPI — link pendiente"
+            title="[Link del canal pendiente]"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <rect x="2" y="5" width="20" height="14" rx="4" />
+              <path d="M10 9.5v5l4.5-2.5z" fill="currentColor" stroke="none" />
+            </svg>
+          </a>
+        </div>
+        <p>
+          © <span id="year"></span> ESPI — Espacio de Salud Psicoterapéutico
+          Integral
+        </p>
       </div>
     </footer>
   </body>

@@ -335,13 +335,22 @@ cursor:pointer;
 .form-note { font-size: .75rem; color: var(--ink-soft); text-align: center; margin: 0; }
 
 
-footer{
-padding:30px 0;
-background:#222;
-color:#fff;
-text-align:center;
-margin-top:40px;
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.site-footer { background: var(--ink); color: rgba(248,245,239,0.6); padding: 32px 0; }
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
 }
+.footer-logo { color: var(--off-white); }
+.footer-social { display: flex; gap: 14px; }
+.footer-social a { color: rgba(248,245,239,0.7); }
+.footer-social a:hover { color: var(--yellow); }
+.footer-inner p { margin: 0; font-size: .85rem; color: inherit; }
 
 
 @media(max-width:768px){
